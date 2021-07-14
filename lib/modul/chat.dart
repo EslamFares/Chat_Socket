@@ -99,7 +99,8 @@ class _ChatScreenState extends State<ChatScreen> {
       margin: EdgeInsets.only(
           left: send ? width * .5 : 0, right: send ? 0 : width * .5, top: 10),
       width: width * .5,
-      height: 50,
+      padding: EdgeInsets.all(5),
+      // height: 55,
       decoration: BoxDecoration(
         color: send ? Colors.blue : Colors.red,
         borderRadius: BorderRadius.circular(10.0),
